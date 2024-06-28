@@ -1,10 +1,102 @@
 body {
-    margin: 0;
-    padding: 0;
+  color: #282828;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/*
-Challenge:
-1. Get this layout looking like the 
-   screenshots on the slide.
-*/  
+header {
+  background-color: #282828;
+  color: whitesmoke;
+}
+
+.logo {
+  font-size: 1.125rem;
+  font-weight: 800;
+}
+
+ul {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.icon {
+  width: 40px;
+}
+
+.align-right {
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+.item-img {
+  display: block;
+  width: 100%;
+}
+
+.caption {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+.img-banner {
+  background-color: #cd6858;
+  color: whitesmoke;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.item {
+  position: relative;
+}
+
+button {
+  align-self: center;
+  background-color: #cd6858;
+  border: none;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+
+.chatbox-bg {
+  background-color: #dda15e;
+  border-radius: 50%;
+  bottom: 6px;
+  box-shadow: 1px 1px 5px #999;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  position: fixed;
+  right: 6px;
+  width: 40px;
+}
+
+.chatbox-bg:active {
+  -webkit-box-shadow: inset 0px 0px 5px #978262;
+  -moz-box-shadow: inset 0px 0px 5px #978262;
+  box-shadow: inset 0px 0px 5px #978262;
+}
+
+.chatbox-img {
+  margin: auto;
+  width: 50%;
+}
